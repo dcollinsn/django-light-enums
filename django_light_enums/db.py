@@ -1,6 +1,6 @@
 from django.db.models.fields import IntegerField, NOT_PROVIDED
 from django.core.exceptions import ValidationError
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 
 class EnumField(IntegerField):
